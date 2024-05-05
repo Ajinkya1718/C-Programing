@@ -19,7 +19,7 @@ int main()
                 int t=a[j];
                 a[j]=a[j+1];
                 a[j+1]=t;
-                //swap=1;
+                swap=1;
             }
         if(!swap)
             break;
