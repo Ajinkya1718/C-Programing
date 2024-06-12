@@ -17,7 +17,7 @@ int partition(int a[],int low,int high)
         }
     }
     i++;
-    //swaping with pivot-1 with pivot
+    //swaping pivot-1 with pivot
     int temp=a[i];
     a[i]=pivot;
     a[high]=temp;
