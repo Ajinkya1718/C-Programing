@@ -11,7 +11,7 @@ void countsort(int a[],int n)
     /*Creating an array to store count of all nums 
     & max_value + 1 bcoz array starts from 0 */
     int count[max_value + 1];
-    for(int i=0;i<=max_value;i++) //Initializing all value to 0 to get rid of garbage value
+    for(int i=0;i<=max_value;i++) //Initializing all value to 0 to get rid of garbage values
         count[i]=0;
 
     /*Reads value from a[] & increments value of present at count[] index*/
