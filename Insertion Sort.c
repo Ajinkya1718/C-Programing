@@ -1,3 +1,5 @@
+/*Compares current value with values behind current value
+& shifts values to arrange them*/
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -21,8 +23,6 @@ int main()
                 a[j+1]=a[j];
                 key=j;
             }
-            else
-                break;
         }
         a[key]=value;
     }
